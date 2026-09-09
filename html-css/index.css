@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SeccionPrincipal {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
+.PrimerCuadro {
+    background-color: red;
+    width: 20%;
+    
+    border-radius: 15px;
+}
+
+.SegundoCuadro {
+    background-color: yellow;
+    width: 20%;
+    
+    border-radius: 15px;
+}
