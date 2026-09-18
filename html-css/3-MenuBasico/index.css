@@ -1,3 +1,4 @@
+/* Hace cambios en el documento entero */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 }
 
 
-
+/* Diseño del navbar en si */
 .NavMenu {
     display: flex;
     background: linear-gradient(45deg,#e78506,rgb(219, 3, 3));
@@ -18,7 +19,7 @@
     color: white;
     
 }
-
+/* Imagen y titulo */
 .Divnav a {
     display: inherit;
     text-decoration: inherit;
@@ -27,16 +28,19 @@
 
 }
 
+/* imagen */
 .Navimg {
     width: 100px;
     height: 100px;
     
 }
-
+/* titulo */
 .NavTitle {
     width: auto;
     
 }
+
+/* lista de enlaces */
 
 .NavList {
     display: flex;
