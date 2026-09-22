@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Form {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.Container-Search {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: max-content;
+    margin-top: 100px;
+    padding: 0rem 1.5rem 0rem 0.5rem;
+    border-radius: 50px;
+    border: 1px,ridge,rgb(175, 175, 175);
+}
+
+.Container-Search svg {
+    padding-left: 10px;
+    width: 105%;
+    height: 105%;
+}
+
+.Input-Search {
+    width: 90vw;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 1rem;
+}
+
+.Input-Search:focus {
+    outline: none;
+}
+
+.SVG-Search  {
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    margin-top: 10px;
+    padding-left: 2rem;
+    
+}
+
+.SVG-Search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.SVG-Search button svg:hover {
+    color: rgb(27, 98, 206);
+    transition: 0.3s;
+}
+
+
